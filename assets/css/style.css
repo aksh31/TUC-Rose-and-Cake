@@ -1,0 +1,90 @@
+.arrow i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #ffb341;
+    font-size: 40px;
+    /* display: none; */
+}
+.heroImg{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/heroimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+.head{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.logo i{
+    padding-top: 5px;
+    font-size: 45px;
+    color: chocolate;
+    cursor: pointer;
+}
+.logo h2{
+    display: inline-block;
+    margin-left: 15px;
+    /* font-weight: bold; */
+    font-family: 'Permanent Marker', cursive;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar input{
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.search-bar i{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: gray;
+    cursor: pointer;
+}
+/* ================================================================================= */
+.foodCourt{
+    padding-top: 100px;
+    color: #fff;
+    /* text-align: center; */
+}
+.cake-info{
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.cake-info img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.cake-info span{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cake-info h3{
+    color: darksalmon;
+}
+.cake-info .btn1, .cake-info .btn2{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 14px;
+}
+.btn1{
+    background-color: #FFD814;
+}
+.btn2{
+    background-color:#FFA41C;
+}
+.btn1:hover{
+    background-color: #fcdf4b;
+}
+.btn2:hover{
+    background-color:#ffb341;
+}
